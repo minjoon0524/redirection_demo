@@ -1,0 +1,116 @@
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: "Malgun Gothic", "Apple SD Gothic Neo", "Noto Sans KR", sans-serif;
+      background: linear-gradient(135deg, #4f4f4f, #6a6a6a);
+      color: #ffffff;
+      min-height: 100vh;
+      min-height: 100dvh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .wrapper {
+      width: 100%;
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .card {
+      width: 100%;
+      text-align: center;
+      padding: 40px 24px;
+    }
+
+    .title {
+      font-size: clamp(26px, 4vw, 42px);
+      font-weight: 700;
+      line-height: 1.45;
+      margin: 0 0 32px;
+      letter-spacing: -0.3px;
+      word-break: keep-all;
+    }
+
+    .icon-wrap {
+      margin: 16px 0 28px;
+    }
+
+    .icon-wrap svg {
+      width: min(260px, 62vw);
+      height: auto;
+      opacity: 0.9;
+      display: block;
+      margin: 0 auto;
+    }
+
+    .sub-message {
+      font-size: clamp(16px, 2.2vw, 18px);
+      line-height: 1.75;
+      color: #e3e3e3;
+      margin: 0 auto 12px;
+      max-width: 720px;
+      word-break: keep-all;
+    }
+
+    .contact {
+      font-size: clamp(16px, 2.3vw, 20px);
+      font-weight: 600;
+      color: #ffffff;
+      margin-top: 8px;
+      line-height: 1.6;
+    }
+
+    .time {
+      margin-top: 12px;
+      font-size: clamp(13px, 1.8vw, 16px);
+      color: #d8d8d8;
+      line-height: 1.6;
+      word-break: break-word;
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 16px;
+      }
+
+      .card {
+        padding: 28px 16px;
+      }
+
+      .title {
+        margin-bottom: 24px;
+      }
+
+      .icon-wrap {
+        margin: 12px 0 24px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      body {
+        padding: 12px;
+      }
+
+      .card {
+        padding: 24px 12px;
+      }
+
+      .title {
+        line-height: 1.5;
+      }
+
+      .sub-message {
+        line-height: 1.7;
+      }
+    }
