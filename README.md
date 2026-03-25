@@ -4,4 +4,4 @@
 - 필요사항 ： PC뿐만 아니라 스마트폰 및 태블릿 PC에서도 원활하게 표시될 수 있도록 반응형 구성이 필요
 
 ## 2. 페이지
-<img width="1920" height="908" alt="Image" src="https://github.com/user-attachments/assets/222c76d1-daa7-4568-90c2-0dd00d1c4c7c" />
+<img width="1912" height="902" alt="Image" src="https://github.com/user-attachments/assets/4bbad7ba-dff7-48b3-b2db-35cc4fc494d2" />
